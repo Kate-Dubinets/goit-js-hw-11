@@ -30,13 +30,16 @@ export function createGallery(images) {
   lightbox.refresh();
 }
 
+
 export function clearGallery() {
   galleryEl.innerHTML = '';
 }
 
+
 export function showLoader() {
   document.getElementById('loader').classList.remove('loader-hidden');
 }
+
 
 export function hideLoader() {
   document.getElementById('loader').classList.add('loader-hidden');
